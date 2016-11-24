@@ -6,30 +6,52 @@
 </description>
     <link>http://realcodez.com/</link>
     <atom:link href="http://realcodez.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 22 Nov 2016 12:22:07 -0600</pubDate>
-    <lastBuildDate>Tue, 22 Nov 2016 12:22:07 -0600</lastBuildDate>
+    <pubDate>Wed, 23 Nov 2016 20:29:56 -0600</pubDate>
+    <lastBuildDate>Wed, 23 Nov 2016 20:29:56 -0600</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
-        <title>Welcome to RealCodez</title>
-        <description>&lt;p&gt;You’ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code&gt;jekyll serve --watch&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+        <title>RealCodez Pilot</title>
+        <description>&lt;p&gt;Greetings, salutations, holas, and welcome to the RealCodez screencasts
+thingamabob. At least, the soft open version. &lt;/p&gt;
 
-&lt;p&gt;To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+&lt;p&gt;I was listening to one of the first &lt;a href=&quot;http://www.greaterthancode.com/&quot;&gt;Greater Than Code&lt;/a&gt; 
+podcasts with 
+ &lt;a href=&quot;https://www.greaterthancode.com/podcast/episode-002-avdi-grimm/&quot;&gt;Avdi Grimm&lt;/a&gt;
+ and during their discussion, Avdi shared some of the behind-the-scenes
+ production work that goes into &lt;a href=&quot;https://www.rubytapas.com/&quot;&gt;RubyTapas&lt;/a&gt; that
+ most are probably unaware of, and while that’s necessary to produce a clean product,
+ it has the one downside of “hiding the mess” from viewers. The panel went
+ on to discuss the various Impostor Syndrome implications this presents. &lt;/p&gt;
 
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+&lt;p&gt;A lot of software instruction has this same challenge. In order to 
+ clearly teach a specific technique, all of the usual real world clutter needs
+ to be removed. But there are some interesting counter-examples. &lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;Tom&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &amp;#39;Hi, Tom&amp;#39; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Geoffrey Grosenbach’s PeepCode videos (now at PluralSight) include Play-by-Play episodes
+showing real life peoples solving real life problems, which I was a big fan of (&lt;a href=&quot;https://www.pluralsight.com/courses/play-by-play-aaroncorey&quot;&gt;this one with
+Aaron Patterson and Corey Haines&lt;/a&gt; is fun).
+&lt;a href=&quot;https://www.amazon.com/Working-Effectively-Legacy-Michael-Feathers/dp/0131177052&quot;&gt;Working Effectively with Legacy Code&lt;/a&gt;
+by Michael Feathers contains many samples of problems in real world code. Of course, 
+&lt;a href=&quot;http://www.discovery.com/tv-shows/mythbusters/&quot;&gt;MythBusters&lt;/a&gt; is, in part, a great show because of the
+insights into the discovery process, failures, warts and all.&lt;/p&gt;
 
-&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://github.com/jekyll/jekyll-help&quot;&gt;Jekyll’s dedicated Help repository&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;With all of those various inspirations, I’d like to present to you a beta/pilot
+episode of my new endeavor: RealCodez. “Where real world development meets 
+real world failure and frustration for your entertainucation.”&lt;/p&gt;
+
+&lt;p&gt;Special thanks to my son Sam, for editing and additional “contributions”. 
+Check out &lt;a href=&quot;https://www.youtube.com/user/SamSpielberg/videos&quot;&gt;his YouTube channel&lt;/a&gt; for more wackiness. &lt;/p&gt;
+
+&lt;p&gt;If you love it, hate it, wanna critique it, I’d love to hear your thoughts, 
+so shoot me an email at chrismo@clabs.org.&lt;/p&gt;
+
+&lt;iframe src=&quot;https://player.vimeo.com/video/192851112&quot; width=&quot;640&quot; height=&quot;360&quot; frameborder=&quot;0&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
 </description>
-        <pubDate>Fri, 18 Nov 2016 05:19:04 -0600</pubDate>
-        <link>http://realcodez.com/2016/11/18/welcome-to-realcodez.html</link>
-        <guid isPermaLink="true">http://realcodez.com/2016/11/18/welcome-to-realcodez.html</guid>
+        <pubDate>Wed, 23 Nov 2016 00:00:00 -0600</pubDate>
+        <link>http://realcodez.com/2016/11/23/realcodez-pilot.html</link>
+        <guid isPermaLink="true">http://realcodez.com/2016/11/23/realcodez-pilot.html</guid>
         
         
       </item>
