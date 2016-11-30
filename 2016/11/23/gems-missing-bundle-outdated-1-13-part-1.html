@@ -6,12 +6,12 @@
     <meta name="viewport" content="width=device-width initial-scale=1" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>RealCodez</title>
+    <title>Gems Missing from Bundle Outdated in 1.13, Part 1</title>
     <meta name="description" content="Where real world development meets real world failure and frustration for your entertainucation.
 ">
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://realcodez.com/">
+    <link rel="canonical" href="http://realcodez.com/2016/11/23/gems-missing-bundle-outdated-1-13-part-1.html">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 </head>
 
@@ -33,42 +33,38 @@
 
     <div class="page-content">
       <div class="wrapper">
-        <div class="home">
+        <div class="post">
 
-  <!-- <h1 class="page-heading">Posts</h1> -->
+  <header class="post-header">
+    <h1 class="post-title">Gems Missing from Bundle Outdated in 1.13, Part 1</h1>
+    <p class="post-meta">Nov 23, 2016</p>
+  </header>
 
-  <ul class="post-list">
-    
-      <li>
-        <span class="post-meta">Nov 30, 2016</span>
+  <article class="post-content">
+    <p>In this, the inaugural episode of RealCodez, we’ll be looking at a PR
+ submitted by a contributor that fixes a bug in Bundler 1.13 that I
+ helped diagnose. The regression causes not all outdated gems to be
+ listed in the outdated output. The problem with the PR is the author was, 
+ understandably, unable
+ to put together a failing test for the bug, so we begin looking at
+ how we can refactor the code in question to allow for better testing.</p>
 
-        <h2>
-          <a class="post-link" href="/2016/11/30/rspec-running-separate-individual-specs.html">RSpec: Running Separate Individual Specs</a>
-          <p class="post-meta"></p>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Nov 23, 2016</span>
+<iframe src="https://player.vimeo.com/video/192851112" width="640" height="360" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
 
-        <h2>
-          <a class="post-link" href="/2016/11/23/gems-missing-bundle-outdated-1-13-part-1.html">Gems Missing from Bundle Outdated in 1.13, Part 1</a>
-          <p class="post-meta"></p>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Nov 22, 2016</span>
+<hr width="20%" />
 
-        <h2>
-          <a class="post-link" href="/2016/11/22/welcome-to-realcodez.html">Welcome to RealCodez</a>
-          <p class="post-meta"></p>
-        </h2>
-      </li>
-    
-  </ul>
+<h3 id="links">Links</h3>
 
-  <p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p>
+<ul>
+  <li><a href="https://github.com/bundler/bundler/pull/5105">Bundler PR #5105</a> (<a href="https://github.com/bundler/bundler/issues/4979">original issue #4979</a>)</li>
+  <li><a href="http://wiki.c2.com/?FeatureEnvySmell">Code Envy</a> </li>
+  <li><a href="http://martinfowler.com/bliki/TellDontAsk.html">Tell, Don’t Ask</a> </li>
+  <li><a href="http://refactoring.com/catalog/extractMethod.html">Extract Method Refactoring</a></li>
+  <li>Episode edited by <a href="https://www.youtube.com/user/SamSpielberg/videos">SamSpielberg</a></li>
+</ul>
+
+
+  </article>
 
 </div>
 
