@@ -6,9 +6,76 @@
 </description>
     <link>http://realcodez.com/</link>
     <atom:link href="http://realcodez.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 11 Dec 2016 15:18:55 -0600</pubDate>
-    <lastBuildDate>Sun, 11 Dec 2016 15:18:55 -0600</lastBuildDate>
+    <pubDate>Mon, 12 Dec 2016 21:24:05 -0600</pubDate>
+    <lastBuildDate>Mon, 12 Dec 2016 21:24:05 -0600</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>Gems Missing from Bundle Outdated in 1.13, Part 2</title>
+        <description>&lt;p&gt;Having set ourselves up to add some smaller scoped tests in 
+&lt;a href=&quot;/2016/11/23/gems-missing-bundle-outdated-1-13-part-1.html&quot;&gt;Part 1&lt;/a&gt; by refactoring the
+contributor’s bug fix, it’s now time to write some tests in Part 2. Scroll to the 
+bottom to jump into it.&lt;/p&gt;
+
+&lt;p&gt;Before diving in, we address a couple of points of “Olde Business”, in particular
+a point about referring to something “stupid” I did in Part 1. Learning is not
+“stupid” and so I offer up a correction of myself.&lt;/p&gt;
+
+&lt;p&gt;That said, later in this episode I refer to a certain step I take as
+“feeling stupid” (around the 24:30 minute mark),
+and a few minutes later I refer to a similar step as feeling sloppy. I don’t really
+explain my thinking during the video, so I’d like to expand on it here.&lt;/p&gt;
+
+&lt;p&gt;The specific issue is around making a call to a Bundler test helper method called
+&lt;code&gt;build_spec&lt;/code&gt;. The method can receive an optional Array of version strings, and will
+return an Array of Gem Specifications, one for each version string passed, which is
+very handy. But if only a single version string is passed, the method still returns
+the single Gem Specification in an Array. The method being tested only receives a
+single spec, and so as I pass the results from &lt;code&gt;build_spec&lt;/code&gt; along, I repeatedly
+forget that fact and move myself along by selecting the &lt;code&gt;.first&lt;/code&gt; from the result.&lt;/p&gt;
+
+&lt;p&gt;Perhaps that method could be renamed to &lt;code&gt;build_specs&lt;/code&gt; to better express itself,
+though that would be a large refactoring throughout the tests, or another option
+would be to add a method &lt;code&gt;build_single_spec&lt;/code&gt; either locally or alongside &lt;code&gt;build_spec&lt;/code&gt;
+among the test helpers.&lt;/p&gt;
+
+&lt;p&gt;In any case, again, I wish my language were more precise. I am
+identifying a small
+&lt;a href=&quot;http://martinfowler.com/bliki/CodeSmell.html&quot;&gt;code smell&lt;/a&gt; with the naming of the
+helper method, but “stupid” and “sloppy” are potentially derogatory for something that
+is a normal thing to happen in code.&lt;/p&gt;
+
+&lt;p&gt;One last point that I’ll discuss more in the next episode has to do with mocks. A large
+part of this episode is spent flailing, trying to get a real Specification instance
+to do what I need. There’s a secondary, behind-the-scenes reason for not using a mock
+here, but the larger point is I tend to not favor mocks when I can get a related
+class to do its own job. (Of course, I’m saying this and doing this while borrowing 
+from a nearby test that I wrote, that has a hand-rolled mock in it). I’ll 
+offer some more explanation next time, but for now I’ll acknowledge that this is an
+issue I’m aware of here and I’d love to hear what you think! Shoot an email to the link below 
+or hit up @realcodez on twitter.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;If you aren’t a subscriber, you’ll see the trailer below with an option to rent the specific episode.&lt;/em&gt;&lt;/p&gt;
+
+&lt;iframe src=&quot;https://player.vimeo.com/video/195393394&quot; width=&quot;640&quot; height=&quot;360&quot; frameborder=&quot;0&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;hr width=&quot;20%&quot; /&gt;
+
+&lt;h3 id=&quot;links&quot;&gt;Links&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/bundler/bundler/pull/5105&quot;&gt;Bundler PR #5105&lt;/a&gt; (&lt;a href=&quot;https://github.com/bundler/bundler/issues/4979&quot;&gt;original issue #4979&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://martinfowler.com/bliki/CodeSmell.html&quot;&gt;Code Smell&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.justinweiss.com/articles/4-simple-memoization-patterns-in-ruby-and-one-gem/&quot;&gt;Ruby Memoization Patterns&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.jamesshore.com/Blog/Red-Green-Refactor.html&quot;&gt;Red-Green-Refactor&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Tue, 13 Dec 2016 00:00:00 -0600</pubDate>
+        <link>http://realcodez.com/2016/12/13/gems-missing-bundle-outdated-1-13-part-2.html</link>
+        <guid isPermaLink="true">http://realcodez.com/2016/12/13/gems-missing-bundle-outdated-1-13-part-2.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>Behind the Scenes - Dec 2 2016</title>
