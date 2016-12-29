@@ -5,10 +5,14 @@
     <description>Where real world development meets real world failure and frustration for your entertainucation.
 </description>
     <link>http://realcodez.com/</link>
-    <image>http://realcodez.com/img/typewriter.png</image>
+    <image>
+      <url>http://realcodez.com/img/typewriter.png</url>
+      <title>RealCodez</title>
+      <link>http://realcodez.com</link>
+    </image>
     <atom:link href="http://realcodez.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 29 Dec 2016 16:33:45 -0600</pubDate>
-    <lastBuildDate>Thu, 29 Dec 2016 16:33:45 -0600</lastBuildDate>
+    <pubDate>Thu, 29 Dec 2016 16:44:39 -0600</pubDate>
+    <lastBuildDate>Thu, 29 Dec 2016 16:44:39 -0600</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
