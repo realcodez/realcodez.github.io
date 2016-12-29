@@ -6,9 +6,42 @@
 </description>
     <link>http://realcodez.com/</link>
     <atom:link href="http://realcodez.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 12 Dec 2016 21:24:05 -0600</pubDate>
-    <lastBuildDate>Mon, 12 Dec 2016 21:24:05 -0600</lastBuildDate>
+    <pubDate>Wed, 28 Dec 2016 18:41:46 -0600</pubDate>
+    <lastBuildDate>Wed, 28 Dec 2016 18:41:46 -0600</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>Behind the Scenes - Dec 14 2016</title>
+        <description>&lt;p&gt;Getting &lt;a href=&quot;/2016/12/13/gems-missing-bundle-outdated-1-13-part-2.markdown&quot;&gt;Gems Missing from Bundle Outdated, Part 2&lt;/a&gt; 
+published involved a bit of a detour. 
+In addition to 
+a different editor antagonist and a more involved editing process due to the nature of the raw content, 
+new software was also in the mix (Adobe Premiere Pro vs. Sony Vegas) which meant almost going 
+back to the drawing board to experiment
+with options for file formats, codecs and rendering setup to help improve efficiencies. We could have 
+skimped on
+some of it, but I’m still trying to invest in the future, and myself being a bit involved in 
+the editing process gave me a greater insight into the details and I was able to contribute
+in some new ways that should pay for itself in future episodes. &lt;/p&gt;
+
+&lt;p&gt;The good news about the next episode is the raw material for it was recorded the night after the material
+for &lt;a href=&quot;/2016/12/13/gems-missing-bundle-outdated-1-13-part-2.markdown&quot;&gt;Part 2&lt;/a&gt; and I was able to actually
+land the plane - no more cliffhangers for this mini-series! Here’s to publishing it soon.&lt;/p&gt;
+
+&lt;p&gt;I also decided in the intro voice-over to call out the ‘raw’ quality of the content after some feedback
+from another friend, for anyone coming into a video without any context. I reckon that VO template will 
+continue to get iterated on. (Which reminds me, I have lots of checklists, that continue to grow. I can 
+blog about that sometime). &lt;/p&gt;
+
+&lt;p&gt;Finally, the &lt;a href=&quot;http://realcodez.com/about&quot;&gt;/about&lt;/a&gt; link lives now, which is a nice addition, esp. now
+that I can reference it in a voice-over.  &lt;/p&gt;
+</description>
+        <pubDate>Wed, 14 Dec 2016 00:00:00 -0600</pubDate>
+        <link>http://realcodez.com/2016/12/14/behind-the-scenes-14-dec-2016.html</link>
+        <guid isPermaLink="true">http://realcodez.com/2016/12/14/behind-the-scenes-14-dec-2016.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>Gems Missing from Bundle Outdated in 1.13, Part 2</title>
